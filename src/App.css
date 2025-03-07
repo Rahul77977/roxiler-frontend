@@ -11,11 +11,11 @@ table {
 th, td {
   padding: 0.75rem;
   text-align: left;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #d8e2e8;
 }
 
 th {
-  background-color: #f8f9fa;
+  background-color: #e8f4f8;
   font-weight: 600;
 }
 
@@ -26,11 +26,10 @@ th {
   gap: 1rem;
 }
 
-
 .navbar-blur {
-  background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 @media (max-width: 600px) {
@@ -58,8 +57,8 @@ th {
 body {
   margin: 0;
   padding: 0;
-  background-color: #000;
-  color: #fff;
+  background-color: #f5faff;
+  color: #2a4154;
   font-family: system-ui, -apple-system, sans-serif;
 }
 
@@ -69,11 +68,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #000;
+  background: #f0f7ff;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #7a56d6;
+  background: #3db9a2;
   border-radius: 4px;
 }
 
@@ -86,70 +85,70 @@ body {
 
 /* Card styles */
 .MuiCard-root {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
   backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: white !important;
+  border: 1px solid rgba(61, 185, 162, 0.2);
+  color: #2a4154 !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .MuiCard-root:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(122, 86, 214, 0.2) !important;
+  box-shadow: 0 8px 20px rgba(61, 185, 162, 0.2) !important;
 }
 
 /* Table styles */
 .transactions-table {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
   backdrop-filter: blur(8px);
 }
 
 .MuiTableCell-root {
-  color: white !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #2a4154 !important;
+  border-bottom: 1px solid rgba(30, 144, 255, 0.2) !important;
 }
 
 .MuiTableHead-root .MuiTableCell-root {
-  background-color: rgba(122, 86, 214, 0.1);
+  background-color: rgba(30, 144, 255, 0.05);
   font-weight: bold;
 }
 
 .MuiTableRow-root:hover {
-  background-color: rgba(122, 86, 214, 0.1) !important;
+  background-color: rgba(61, 185, 162, 0.05) !important;
 }
 
 /* Chart containers */
 .MuiPaper-root {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
   backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: white !important;
+  border: 1px solid rgba(30, 144, 255, 0.2);
+  color: #2a4154 !important;
 }
 
 /* Form controls */
 .MuiInputBase-root {
-  background-color: rgba(255, 255, 255, 0.05) !important;
-  color: white !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  color: #2a4154 !important;
 }
 
 .MuiInputLabel-root {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(42, 65, 84, 0.7) !important;
 }
 
 .MuiOutlinedInput-notchedOutline {
-  border-color: rgba(255, 255, 255, 0.2) !important;
+  border-color: rgba(61, 185, 162, 0.4) !important;
 }
 
 .MuiSelect-icon {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(42, 65, 84, 0.7) !important;
 }
 
 /* Pagination */
 .MuiPagination-root .MuiPaginationItem-root {
-  color: white;
+  color: #2a4154;
 }
 
 .MuiPagination-root .Mui-selected {
-  background-color: #7a56d6 !important;
+  background-color: #3db9a2 !important;
+  color: white !important;
 }
-
